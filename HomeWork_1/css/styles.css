@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 15px 10px;
+    margin: 20px 10px;
+}
+
+.Text {
+    /* text-align: center; */
+    background-color: #34495E; 
+    border-radius: 20px; 
+    padding: 21px 50px;
+    margin: 15px;
+}
