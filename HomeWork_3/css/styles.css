@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: relative;
+    width: 420px;
+    height: 426px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08),
+        0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+
+    caret-color: #FFAA0D
+}
+
+.close {
+    width: 388px;
+    height: 24px;
+
+    display: flex;
+    justify-content: end;
+
+    padding: 5px 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px 16px;
+    gap: 24px;
+
+    width: 388px;
+    height: 370px;
+
+
+    align-self: stretch;
+}
+
+.registration {
+    width: 356px;
+    height: 32px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+
+    color: black;
+}
+
+.message {
+    width: 356px;
+    height: 42px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #7b8e98;
+
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 8px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    row-gap: 24px;
+}
+
+.button-box #dis,
+#reg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+
+    width: 356px;
+    height: 48px;
+
+    border: 1px solid #cfd8dc;
+    border-radius: 87px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#reg {
+    background-color: #FFE44D;
+}
+
+input {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #CFD8DC;
+    height: 48px;
+    width: 356px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    padding: 7px 16px 7px 16px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #FFE44D
+}
+
+.user-data {
+    row-gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
