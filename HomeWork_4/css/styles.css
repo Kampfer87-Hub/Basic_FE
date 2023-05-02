@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+}
+
+.inner {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+
+    transition: all 0.5s linear;
+}
+
+.inner:nth-child(1) {
+    left: 50px;
+    top: 50px;
+    background-color: green;
+    z-index: 2;
+}
+
+.inner:nth-child(1):hover {
+    width: 300px;
+    height: 300px;
+
+    transform: rotate(-45deg);
+}
+
+.inner:last-child {
+    left: 100px;
+    top: 100px;
+
+    background-color: blue;
+}
