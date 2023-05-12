@@ -86,8 +86,8 @@ function sumEvenOdd(n, m) {
         sumOdd
     }
 }
-console.log(`сумма четных чисел ${sumEvenOdd(1, 9).sumEven}`)
-console.log(`сумма нечетных чисел ${sumEvenOdd(1, 9).sumOdd}`)
+console.log(`сумма четных чисел ${sumEvenOdd(n, m).sumEven}`)
+console.log(`сумма нечетных чисел ${sumEvenOdd(n, m).sumOdd}`)
 
 
 
